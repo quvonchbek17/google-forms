@@ -1,0 +1,37 @@
+[
+    {
+      "title": "Ismingiz nima?",
+      "textQuestion": {
+        "paragraph": false
+      }
+    },
+    {
+      "title": "Siz bizning xizmatimizdan qanchalik mamnunsiz?",
+      "choiceQuestion": {
+        "type": "RADIO", 
+        "options": [
+          { "value": "Juda mamnunman" },
+          { "value": "Mamnunman" },
+          { "value": "Neytral" },
+          { "value": "Mamnun emasman" },
+          { "value": "Umuman mamnun emasman" }
+        ]
+      }
+    },
+    {
+      "title": "Xizmatni baholang",
+      "scaleQuestion": {
+        "low": 1,
+        "high": 5,
+        "lowLabel": "Yomon",
+        "highLabel": "A'lo"
+      }
+    },
+    {
+      "title": "Tug'ilgan sanangizni kiriting",
+      "dateQuestion": {
+        "includeYear": true,
+        "includeTime": false
+      }
+    }
+  ]
